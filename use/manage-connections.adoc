@@ -13,7 +13,7 @@ summary: 您可以上傳並安裝套件至Astra Control Center。
 
 您可以將儲存庫連線至Astra Control、作為軟體套件安裝映像和成品的參考。當您匯入軟體套件時、Astra Control會參考映像儲存庫中的安裝映像、二進位檔及成品儲存庫中的其他成品。
 
-.您需要的是 #8217 ；需要的是什麼
+.您需要的產品
 * Kubernetes叢集已安裝Astra Control Center
 * 可存取的執行中Docker儲存庫
 * 可存取的執行中成品儲存庫（例如Artifactory）
@@ -35,6 +35,7 @@ summary: 您可以上傳並安裝套件至Astra Control Center。
 . 選擇*連接*。
 
 
+.結果
 儲存庫已連線。在「* Docker Image Repository *」（* Docker映像儲存庫*）區段中、儲存庫應顯示連線狀態。
 
 
@@ -51,6 +52,7 @@ summary: 您可以上傳並安裝套件至Astra Control Center。
 . 選取*是、中斷Docker映像儲存庫的連線*。
 
 
+.結果
 儲存庫已中斷連線。在「* Docker Image Repository *」（* Docker映像儲存庫*）區段中、儲存庫應顯示中斷連線狀態。
 
 
@@ -69,6 +71,7 @@ summary: 您可以上傳並安裝套件至Astra Control Center。
 . 選擇*連接*。
 
 
+.結果
 儲存庫已連線。在「*雜訊儲存庫*」區段中、儲存庫應顯示連線狀態。
 
 
@@ -85,6 +88,7 @@ summary: 您可以上傳並安裝套件至Astra Control Center。
 . 選取*是、中斷產出工件儲存庫的連線*。
 
 
+.結果
 儲存庫已中斷連線。在「*雜訊儲存庫*」區段中、儲存庫應顯示連線狀態。
 
 [discrete]

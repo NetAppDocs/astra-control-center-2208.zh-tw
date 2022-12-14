@@ -13,7 +13,7 @@ summary: 若要升級Astra Control Center、您必須依照所述步驟下載套
 
 若要升級 Astra Control Center，請從 NetApp 支援網站下載安裝套件，然後完成以下指示來升級您環境中的 Astra Control Center 元件。您可以使用此程序、在連線網際網路或無線環境中升級Astra Control Center。
 
-.您需要的是 #8217 ；需要的是什麼
+.您需要的產品
 * link:../get-started/requirements.html["開始升級之前、請確保環境仍符合Astra Control Center部署的最低需求"]。
 * 確保所有叢集操作員都處於健全狀態且可用。
 +
@@ -30,16 +30,17 @@ kubectl get apiservices
 * 登出您的Astra Control Center。
 
 
+.關於這項工作
 Astra Control Center升級程序會引導您完成下列高層級步驟：
 
-*  the Astra Control Center bundle
-*  the bundle and change directory
-*  the images to your local registry
-*  the updated Astra Control Center operator
-*  Astra Control Center
-*  third-party services (Optional)
-*  system status
-*  up ingress for load balancing
+* <<下載Astra Control Center套裝組合>>
+* <<解壓縮套件並變更目錄>>
+* <<將映像新增至本機登錄>>
+* <<安裝更新的Astra Control Center操作員>>
+* <<升級Astra Control Center>>
+* <<升級協力廠商服務（選用）>>
+* <<驗證系統狀態>>
+* <<設定入口以進行負載平衡>>
 
 
 
@@ -173,8 +174,8 @@ vim astra_control_center_operator_deploy.yaml
 imagePullSecrets:
 - name: <name_of_secret_with_creds_to_local_registry>
 ----
-.. 變更 `[your_registry_path]` 適用於 `kube-rbac-proxy` 映像到您在中推入映像的登錄路徑 ,上一步。
-.. 變更 `[your_registry_path]` 適用於 `acc-operator-controller-manager` 映像到您在中推入映像的登錄路徑 ,上一步。
+.. 變更 `[your_registry_path]` 適用於 `kube-rbac-proxy` 映像到您在中推入映像的登錄路徑 <<substep_image_local_registry_push,上一步>>。
+.. 變更 `[your_registry_path]` 適用於 `acc-operator-controller-manager` 映像到您在中推入映像的登錄路徑 <<substep_image_local_registry_push,上一步>>。
 .. 將下列值新增至 `env` 區段：
 +
 [listing]
@@ -275,7 +276,7 @@ kubectl edit acc -n [netapp-acc or custom namespace]
 ----
 +
 
-NOTE: 您的登錄路徑必須符合您在中推送映像的登錄路徑 ,上一步。
+NOTE: 您的登錄路徑必須符合您在中推送映像的登錄路徑 <<substep_image_local_registry_push,上一步>>。
 
 . 在中新增下列行 `additionalValues` 內部 `Spec` 在Astra Control Center CR：
 +
@@ -405,7 +406,7 @@ NOTE: 如需有關「負載平衡器」和入口服務類型的其他詳細資�
 * OpenShift入口控制器
 
 
-.您需要的是 #8217 ；需要的是什麼
+.您需要的產品
 * 在CR規格中、
 +
 ** 如果 `crd.externalTraefik` 存在、應設為 `false` 或

@@ -13,7 +13,7 @@ summary: 您可以上傳並安裝套件至Astra Control Center。
 
 NetApp 透過軟體套件為 Astra Control Center 提供額外功能，您可從 NetApp 支援網站下載這些套件。連接Docker和成品儲存庫之後、您可以上傳和匯入套件、將此功能新增至Astra Control Center。您可以使用CLI或Astra Control Center Web UI來管理軟體套件。
 
-.您需要的是 #8217 ；需要的是什麼
+.您需要的產品
 * Kubernetes叢集已安裝Astra Control Center
 * 連線的Docker映像儲存庫、可容納軟體套件映像。如需詳細資訊、請參閱 link:manage-connections.html["管理儲存庫連線"]。
 * 連線的成品儲存庫、用於儲存軟體套件二進位檔和成品。如需詳細資訊、請參閱 link:manage-connections.html["管理儲存庫連線"]。
@@ -71,6 +71,7 @@ kubectl astra packages copy-artifacts -m BUNDLE_FILE -n NETWORK_LOCATION
 . 選取*「Add*」。
 
 
+.結果
 如果套件檔案有效、且套件映像和成品位於連線的儲存庫中、則套件會新增至Astra Control Center。當「*狀態*」欄中的狀態變更為*可用*時、您可以使用套件。您可以將游標暫留在套件的狀態上、以取得更多資訊。
 
 
@@ -104,6 +105,7 @@ kubectl astra packages import -m BUNDLE_FILE -u SERVER -a ACCOUNT_ID -k TOKEN
 
 
 
+.結果
 如果套件檔案有效、且套件映像和成品位於連線的儲存庫中、則套件會新增至Astra Control Center。
 
 
@@ -125,6 +127,7 @@ NOTE: 如果您的儲存庫中找不到套件的一或多個影像或成品、�
 . 選擇*刪除*。
 
 
+.結果
 套件會從Astra Control Center刪除、但套件的映像和成品仍會保留在儲存庫中。
 
 [discrete]

@@ -13,16 +13,16 @@ summary: 驗證Kubernetes叢集、應用程式和網頁瀏覽器的支援、開�
 
 開始驗證作業環境、應用程式叢集、應用程式、授權和網頁瀏覽器的整備度。
 
-*  environment requirements
-*  storage backends
-*  cluster requirements
-*  management requirements
-*  prerequisites
-*  to the internet
-* 
-*  for on-premises Kubernetes clusters
-*  requirements
-*  web browsers
+* <<營運環境需求>>
+* <<支援的儲存後端>>
+* <<應用程式叢集需求>>
+* <<應用程式管理需求>>
+* <<複寫先決條件>>
+* <<存取網際網路>>
+* <<授權>>
+* <<內部部署Kubernetes叢集的入口>>
+* <<網路需求>>
+* <<支援的網頁瀏覽器>>
 
 
 

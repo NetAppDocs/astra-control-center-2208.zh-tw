@@ -28,6 +28,7 @@ UI中不會顯示容量和處理量等詳細資料。發生此問題時、請取
 如果您將含有Astra Data Store的叢集新增至Astra Control Center叢集、則根據預設、會將astrads系統應用程式管理為隱藏應用程式。若要取消管理叢集、您必須先取消管理astrads系統應用程式。您無法使用Astra Control Center UI取消管理此類應用程式。改用Astra Control API要求手動移除應用程式：
 
 .詳細資料
+[%collapsible]
 ====
 .步驟
 . 使用此API取得受管理叢集的ID：

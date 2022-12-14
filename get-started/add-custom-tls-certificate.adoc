@@ -13,7 +13,7 @@ summary: 您可以上傳並驗證由協力廠商憑證授權單位（CA）簽署
 
 您可以移除現有的自我簽署TLS憑證、並以由憑證授權單位（CA）簽署的TLS憑證取代。
 
-.您需要的是 #8217 ；需要的是什麼
+.您需要的產品
 * Kubernetes叢集已安裝Astra Control Center
 * 管理存取叢集上要執行的命令Shell `kubectl` 命令
 * 來自CA的私密金鑰和憑證檔案

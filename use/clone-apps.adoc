@@ -16,6 +16,7 @@ summary: 複製現有的應用程式、在相同的Kubernetes叢集或其他叢�
 
 如果您需要將應用程式和儲存設備從一個Kubernetes叢集移至另一個叢集、複製作業將有助於您。例如、您可能想要透過CI/CD傳輸途徑和Kubernetes命名空間來移動工作負載。您可以使用Astra UI或 https://docs.netapp.com/us-en/astra-automation/index.html["Astra Control API"^] 複製及移轉應用程式。
 
+.您需要的產品
 若要將應用程式複製到不同的叢集、您需要預設的儲存區。當您新增第一個儲存區時、它會成為預設儲存區。
 
 .關於這項工作
@@ -58,6 +59,7 @@ summary: 複製現有的應用程式、在相同的Kubernetes叢集或其他叢�
 . * Clone Summary（複製摘要）*：檢閱有關複製的詳細資料、然後選取* Clone（複製）*。
 
 
+.結果
 Astra Control Center會根據您提供的資訊來複製該應用程式。當新的應用程式實體複本位於時、即表示複製作業成功 `Available` 請在「*應用程式*」頁面上說明。
 
 

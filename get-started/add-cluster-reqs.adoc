@@ -15,7 +15,7 @@ summary: 您應該執行易用性檢查、以確保叢集已準備好新增至As
 
 
 
-== 新增叢集之前所需的資源
+== 新增叢集之前所需的功能
 
 確保您的叢集符合中所述的要求 link:requirements.html#application-cluster-requirements["應用程式叢集需求"]。
 

@@ -47,6 +47,7 @@ NOTE: NetApp針對特定應用程式提供的預設快照前及後執行掛勾�
 == 2022年4月26日（22.04.0）
 
 .詳細資料
+[%collapsible]
 ====
 .新功能與支援
 * https://docs.netapp.com/us-en/astra-control-center-2204/get-started/setup_overview.html#add-a-storage-backend["Astra Control Center的Astra Data Store部署"]
@@ -69,6 +70,7 @@ NOTE: NetApp針對特定應用程式提供的預設快照前及後執行掛勾�
 == 2021年12月14日（21.12）
 
 .詳細資料
+[%collapsible]
 ====
 .新功能與支援
 * https://docs.netapp.com/us-en/astra-control-center-2112/use/restore-apps.html["應用程式還原"^]
@@ -96,6 +98,7 @@ NOTE: NetApp針對特定應用程式提供的預設快照前及後執行掛勾�
 == 2021年8月5日（21.08）
 
 .詳細資料
+[%collapsible]
 ====
 Astra Control Center正式推出。
 
