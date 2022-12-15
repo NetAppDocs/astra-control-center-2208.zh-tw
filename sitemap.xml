@@ -29,28 +29,28 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/acc_cluster_cr_options.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/acc_operatorhub_install.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/add-cluster-reqs.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/add-custom-tls-certificate.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -92,7 +92,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/clone-apps.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -127,7 +127,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/execution-hooks.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -141,7 +141,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/support/get-help.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -155,14 +155,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/install_acc-cvo.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/install_acc.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -183,21 +183,21 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/release-notes/known-issues-ads.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/release-notes/known-issues.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/release-notes/known-limitations.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -218,35 +218,35 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/manage-apps.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/manage-backend.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/manage-buckets.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/manage-connections.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/manage-credentials.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -260,7 +260,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/manage-packages-acc.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -274,56 +274,56 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/manage-users.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/monitor-protect.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/protect-apps.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/protection-overview.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/quick-start.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/replicate_snapmirror.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/requirements.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/restore-apps.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -337,14 +337,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208//search.html</loc>
       
-      <lastmod>2022-11-22T16:01:58+00:00</lastmod>
+      <lastmod>2022-12-15T12:28:55+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/get-started/setup_overview.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -365,14 +365,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/uninstall_acc.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/unmanage.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -386,14 +386,14 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/use/upgrade-acc.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/concepts/user-roles-namespaces.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   
@@ -428,7 +428,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/astra-control-center-2208/release-notes/whats-new.html</loc>
       
-      <lastmod>2022-11-22T16:01:40+00:00</lastmod>
+      <lastmod>2022-12-14T18:30:11+00:00</lastmod>
       
     </url>
   

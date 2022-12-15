@@ -1404,7 +1404,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-22 16:01:40 +0000">11/22/2022</time>
+    <time datetime="2022-12-14 18:30:11 +0000">12/14/2022</time>
     
   
 
@@ -1423,10 +1423,10 @@
 <div class="title">叢集管理限制</div>
 <ul>
 <li>
-<p>same cluster cannot be managed by two Astra Control Center instances</p>
+<p><a href="#同一個叢集無法由兩個astra-control-center執行個體管理">同一個叢集無法由兩個Astra Control Center執行個體管理</a></p>
 </li>
 <li>
-<p>Control Center cannot manage two identically named clusters</p>
+<p><a href="#astra-control-center無法管理兩個名稱相同的叢集">Astra Control Center無法管理兩個名稱相同的叢集</a></p>
 </li>
 </ul>
 </div>
@@ -1434,10 +1434,10 @@
 <div class="title">角色型存取控制（RBAC）限制</div>
 <ul>
 <li>
-<p>user with namespace RBAC constraints can add and unmanage a cluster</p>
+<p><a href="#具有命名空間rbac限制的使用者可以新增及取消管理叢集">具有命名空間RBAC限制的使用者可以新增及取消管理叢集</a></p>
 </li>
 <li>
-<p>member with namespace constraints cannot access the cloned or restored apps until admin adds the namespace to the constraint</p>
+<p><a href="#具有命名空間限制的成員必須先將命名空間新增至限制、才能存取複製或還原的應用程式">[具有命名空間限制的成員必須先將命名空間新增至限制、才能存取複製或還原的應用程式]</a></p>
 </li>
 </ul>
 </div>
@@ -1445,16 +1445,16 @@
 <div class="title">應用程式管理限制</div>
 <ul>
 <li>
-<p>of apps installed using pass-by-reference operators can fail</p>
+<p><a href="#使用傳遞參考運算子安裝的應用程式複製可能會失敗">使用傳遞參考運算子安裝的應用程式複製可能會失敗</a></p>
 </li>
 <li>
-<p>restore operations of apps that use a certificate manager are not supported</p>
+<p><a href="#不支援使用憑證管理程式之應用程式的就地還原作業">不支援使用憑證管理程式之應用程式的就地還原作業</a></p>
 </li>
 <li>
-<p>and cluster-scoped operator deployed apps not supported</p>
+<p><a href="#不支援啟用olm且叢集範圍內的營運者部署應用程式">不支援啟用OLM且叢集範圍內的營運者部署應用程式</a></p>
 </li>
 <li>
-<p>deployed with Helm 2 are not supported</p>
+<p><a href="#不支援以helm-2部署的應用程式">不支援以Helm 2部署的應用程式</a></p>
 </li>
 </ul>
 </div>
@@ -1462,16 +1462,16 @@
 <div class="title">一般限制</div>
 <ul>
 <li>
-<p>buckets in Astra Control Center do not report available capacity</p>
+<p><a href="#astra-control-center中的s3鏟斗未報告可用容量">Astra Control Center中的S3鏟斗未報告可用容量</a></p>
 </li>
 <li>
-<p>Control Center does not validate the details you enter for your proxy server</p>
+<p><a href="#astra-control-center不會驗證您為proxy伺服器輸入的詳細資料">Astra Control Center不會驗證您為Proxy伺服器輸入的詳細資料</a></p>
 </li>
 <li>
-<p>connections to a Postgres pod causes failures</p>
+<p><a href="#現有連線至postgres-pod會導致故障">現有連線至Postgres Pod會導致故障</a></p>
 </li>
 <li>
-<p>and snapshots might not be retained during removal of an Astra Control Center instance</p>
+<p><a href="#在移除astra-control-center執行個體期間可能無法保留備份與快照">在移除Astra Control Center執行個體期間、可能無法保留備份與快照</a></p>
 </li>
 </ul>
 </div>

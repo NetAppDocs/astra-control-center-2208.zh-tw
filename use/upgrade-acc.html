@@ -1404,7 +1404,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-22 16:01:40 +0000">11/22/2022</time>
+    <time datetime="2022-12-14 18:30:11 +0000">12/14/2022</time>
     
   
 
@@ -1420,7 +1420,7 @@
 <p>若要升級 Astra Control Center，請從 NetApp 支援網站下載安裝套件，然後完成以下指示來升級您環境中的 Astra Control Center 元件。您可以使用此程序、在連線網際網路或無線環境中升級Astra Control Center。</p>
 </div>
 <div class="ulist">
-<div class="title">您需要的是 #8217 ；需要的是什麼</div>
+<div class="title">您需要的產品</div>
 <ul>
 <li>
 <p><a href="../get-started/requirements.html">"開始升級之前、請確保環境仍符合Astra Control Center部署的最低需求"</a>。</p>
@@ -1447,33 +1447,34 @@
 </ul>
 </div>
 <div class="paragraph">
+<div class="title">關於這項工作</div>
 <p>Astra Control Center升級程序會引導您完成下列高層級步驟：</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>the Astra Control Center bundle</p>
+<p><a href="#下載astra-control-center套裝組合">下載Astra Control Center套裝組合</a></p>
 </li>
 <li>
-<p>the bundle and change directory</p>
+<p><a href="#解壓縮套件並變更目錄">解壓縮套件並變更目錄</a></p>
 </li>
 <li>
-<p>the images to your local registry</p>
+<p><a href="#將映像新增至本機登錄">將映像新增至本機登錄</a></p>
 </li>
 <li>
-<p>the updated Astra Control Center operator</p>
+<p><a href="#安裝更新的astra-control-center操作員">安裝更新的Astra Control Center操作員</a></p>
 </li>
 <li>
-<p>Astra Control Center</p>
+<p><a href="#升級astra-control-center">升級Astra Control Center</a></p>
 </li>
 <li>
-<p>third-party services (Optional)</p>
+<p><a href="#升級協力廠商服務（選用）">[升級協力廠商服務（選用）]</a></p>
 </li>
 <li>
-<p>system status</p>
+<p><a href="#驗證系統狀態">驗證系統狀態</a></p>
 </li>
 <li>
-<p>up ingress for load balancing</p>
+<p><a href="#設定入口以進行負載平衡">設定入口以進行負載平衡</a></p>
 </li>
 </ul>
 </div>
@@ -1688,10 +1689,10 @@ done</code></pre>
 </div>
 </li>
 <li>
-<p>變更 <code>[your_registry_path]</code> 適用於 <code>kube-rbac-proxy</code> 映像到您在中推入映像的登錄路徑 ,上一步。</p>
+<p>變更 <code>[your_registry_path]</code> 適用於 <code>kube-rbac-proxy</code> 映像到您在中推入映像的登錄路徑 <a href="#substep_image_local_registry_push">上一步</a>。</p>
 </li>
 <li>
-<p>變更 <code>[your_registry_path]</code> 適用於 <code>acc-operator-controller-manager</code> 映像到您在中推入映像的登錄路徑 ,上一步。</p>
+<p>變更 <code>[your_registry_path]</code> 適用於 <code>acc-operator-controller-manager</code> 映像到您在中推入映像的登錄路徑 <a href="#substep_image_local_registry_push">上一步</a>。</p>
 </li>
 <li>
 <p>將下列值新增至 <code>env</code> 區段：</p>
@@ -1809,7 +1810,7 @@ deployment.apps/acc-operator-controller-manager configured</pre>
 <img src="/us-en/astra-control-center-2208/images/note.svg" alt="附註">
 </td>
 <td class="content">
-您的登錄路徑必須符合您在中推送映像的登錄路徑 ,上一步。
+您的登錄路徑必須符合您在中推送映像的登錄路徑 <a href="#substep_image_local_registry_push">上一步</a>。
 </td>
 </tr>
 </table>
@@ -2021,7 +2022,7 @@ deployment.apps/acc-operator-controller-manager configured</pre>
 </ul>
 </div>
 <div class="ulist">
-<div class="title">您需要的是 #8217 ；需要的是什麼</div>
+<div class="title">您需要的產品</div>
 <ul>
 <li>
 <p>在CR規格中、</p>
