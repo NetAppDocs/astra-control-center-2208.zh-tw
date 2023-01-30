@@ -70,7 +70,6 @@ NOTE: 這些需求假設Astra Control Center是營運環境中唯一執行的應
 * * Astra Trident / ONTAP S基 類組態*：Astra Control Center需要建立儲存類別、並將其設為預設儲存類別。Astra Control Center支援ONTAP Astra Trident提供的下列支援資訊驅動程式：
 +
 ** ONTAP-NAS
-** ONTAP-NAS-flexgroup
 ** ONTAP-SAN
 ** ONTAP-san經濟型
 
