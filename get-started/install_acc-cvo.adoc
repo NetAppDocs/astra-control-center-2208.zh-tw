@@ -154,7 +154,7 @@ NOTE: AWS登錄權杖會在12小時內過期、之後您必須更新Docker映像
 
 . 建立AWS虛擬網路。
 . 檢閱EC2運算執行個體。這可以是AWS中的裸機伺服器或VM。
-. 如果執行個體類型尚未符合主節點和工作節點的Astra最低資源需求、請在AWS中變更執行個體類型以符合Astra需求。請參閱 link:../requirements.html["Astra Control Center需求"]。
+. 如果執行個體類型尚未符合主節點和工作節點的Astra最低資源需求、請在AWS中變更執行個體類型以符合Astra需求。  請參閱 link:../get-started/requirements.html["Astra Control Center需求"]。
 . 建立至少一個AWS S3儲存區來儲存備份。
 . 建立AWS彈性Container登錄（ECR）、以裝載所有的主動定速控制系統映像。
 +
@@ -561,11 +561,7 @@ NOTE: 這些需求假設Astra Control Center是營運環境中唯一執行的應
 
 第一步是在Azure上安裝RedHat OpenShift叢集。
 
-如需安裝指示、請參閱下列內容：
-
-* https://docs.openshift.com/container-platform/4.8/installing/installing_aws/installing-azure-default.html["在Azure上安裝OpenShift叢集"^]。
-* https://docs.openshift.com/container-platform/4.8/installing/installing_azure/installing-azure-account.html#installing-azure-account["安裝Azure帳戶"^]。
-
+如需安裝說明、請參閱上的 RedHat 說明文件 https://docs.openshift.com/container-platform["在 Azure 上安裝 OpenShift 叢集"^] 和 https://docs.openshift.com/container-platform["安裝 Azure 帳戶"^]。
 
 
 
