@@ -588,7 +588,7 @@ NOTE: OpenShift可能會建立自己的資源群組。此外、您也應該定�
 
 接下來、設定Azure以建立虛擬網路、設定運算執行個體、建立Azure Blob容器、建立Azure Container Register（ACR）來裝載Astra Control Center映像、然後將映像推送至此登錄。
 
-請依照Azure文件完成下列步驟。請參閱 https://docs.openshift.com/container-platform/4.8/installing/installing_aws/installing-azure-default.html["在Azure上安裝OpenShift叢集"^]。
+請依照Azure文件完成下列步驟。請參閱 https://docs.openshift.com/container-platform/4.8/installing/installing_azure/preparing-to-install-on-azure.html["在Azure上安裝OpenShift叢集"^]。
 
 . 建立Azure虛擬網路。
 . 檢閱運算執行個體。這可以是Azure中的裸機伺服器或VM。

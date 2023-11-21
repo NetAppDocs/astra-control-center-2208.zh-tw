@@ -918,7 +918,6 @@
   <block id="ac5af645cec8d25669a5a9893f571bcc" category="paragraph">請參閱<block ref="47e48c38bbba09ad0234959e4f70e6b5" category="inline-link-rx"></block>。</block>
   <block id="ffe7dbf60b2fbe9ee35b02eca9bedb83" category="section-title">設定Azure</block>
   <block id="daee2a4caddb0f1fced149c9b185ab3e" category="paragraph">接下來、設定Azure以建立虛擬網路、設定運算執行個體、建立Azure Blob容器、建立Azure Container Register（ACR）來裝載Astra Control Center映像、然後將映像推送至此登錄。</block>
-  <block id="310c2720a5523c6a1f55532ee951393c" category="paragraph">請依照Azure文件完成下列步驟。請參閱<block ref="604df1e02f9d2d76a67db6e61299339e" category="inline-link-rx"></block>。</block>
   <block id="52393bb21023d79ef4e0fa374e54b83d" category="list-text">建立Azure虛擬網路。</block>
   <block id="d03589157dd63e1aaf5497955f5058f5" category="list-text">檢閱運算執行個體。這可以是Azure中的裸機伺服器或VM。</block>
   <block id="b82f3e0352c4295f8db3114c4d861a92" category="inline-link-macro">Astra Control Center需求</block>
@@ -2662,7 +2661,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
   <block id="874d8a5301794a9ca2aba132ac2460f3" category="sidebar">Kubernetes Hub</block>
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">取得協助的地方</block>
-  <block id="f21f22dde0e0692333a7a28cce456b08" category="sidebar">所有Astra文件</block>
   <block id="1d79052461351a56ef4f9bf9f5837f4a" category="sidebar">使用REST API自動化</block>
   <block id="0b79795d3efc95b9976c7c5b933afce2" category="sidebar">簡介</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
@@ -2720,4 +2718,6 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="55e97b9e5267c3f5615048df47e2403b" category="paragraph">請依照Azure文件完成下列步驟。請參閱<block ref="0e7a8da8480a9d852a625433095b0dfb" category="inline-link-rx"></block>。</block>
+  <block id="f9903cca48f50ecc8e61485163abb57b" category="sidebar">Astra Control Center 22.08 文件</block>
 </blocks>
